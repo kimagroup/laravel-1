@@ -1,30 +1,17 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v10.0.5...10.x)
+## [Unreleased](https://github.com/laravel/laravel/compare/v11.0.2...11.x)
 
-## [v10.0.5](https://github.com/laravel/laravel/compare/v10.0.4...v10.0.5) - 2023-03-08
+## [v11.0.2](https://github.com/laravel/laravel/compare/v11.0.1...v11.0.2) - 2024-03-13
 
-- Add replace_placeholders to log channels by @alanpoulain in https://github.com/laravel/laravel/pull/6139
+* [11.x] Remove branch alias from composer.json by [@zepfietje](https://github.com/zepfietje) in https://github.com/laravel/laravel/pull/6366
+* [11.x] Fixes typo in welcome page by [@jrd-lewis](https://github.com/jrd-lewis) in https://github.com/laravel/laravel/pull/6363
+* change mariadb default by [@taylorotwell](https://github.com/taylorotwell) in https://github.com/laravel/laravel/commit/79969c99c6456a6d6edfbe78d241575fe1f65594
 
-## [v10.0.4](https://github.com/laravel/laravel/compare/v10.0.3...v10.0.4) - 2023-02-27
+## [v11.0.1](https://github.com/laravel/laravel/compare/v11.0.0...v11.0.1) - 2024-03-12
 
-- Fix typo by @izzudin96 in https://github.com/laravel/laravel/pull/6128
-- Specify facility in the syslog driver config by @nicolus in https://github.com/laravel/laravel/pull/6130
+* [11.x] Fixes SQLite driver missing by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/laravel/pull/6361
 
-## [v10.0.3](https://github.com/laravel/laravel/compare/v10.0.2...v10.0.3) - 2023-02-21
+## [v11.0.0 (2023-02-17)](https://github.com/laravel/laravel/compare/v10.3.2...v11.0.0)
 
-- Remove redundant `@return` docblock in UserFactory by @datlechin in https://github.com/laravel/laravel/pull/6119
-- Reverts change in asset helper by @timacdonald in https://github.com/laravel/laravel/pull/6122
-
-## [v10.0.2](https://github.com/laravel/laravel/compare/v10.0.1...v10.0.2) - 2023-02-16
-
-- Remove unneeded call by @taylorotwell in https://github.com/laravel/laravel/commit/3986d4c54041fd27af36f96cf11bd79ce7b1ee4e
-
-## [v10.0.1](https://github.com/laravel/laravel/compare/v10.0.0...v10.0.1) - 2023-02-15
-
-- Add PHPUnit result cache to gitignore by @itxshakil in https://github.com/laravel/laravel/pull/6105
-- Allow php-http/discovery as a composer plugin by @nicolas-grekas in https://github.com/laravel/laravel/pull/6106
-
-## [v10.0.0 (2022-02-14)](https://github.com/laravel/laravel/compare/v9.5.2...v10.0.0)
-
-Laravel 10 includes a variety of changes to the application skeleton. Please consult the diff to see what's new.
+Laravel 11 includes a variety of changes to the application skeleton. Please consult the diff to see what's new.
